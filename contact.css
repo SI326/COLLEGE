@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(gradient-black-background-with-cubes_23-2149197764.jpg);
+}
+.contact{
+    color: aliceblue;
+    font-size: 50px;
+
+}
+.content{
+    color: aliceblue;
+    
+    
+}
+.name{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    height: 3vh;
+    background: black;
+
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    background: black;
+    align-items: center;
+    height: 100px;
+    background-image:conic-gradient(transparent,#706b6d); 
+   
+}
+
+    label,input,button{
+        position: sticky;
+        align-items: center;
+        margin: 10px;
+    }
+
+section{
+    display: flex;
+    justify-content:center; 
+    align-items: center;
+    flex-direction: row;
+     min-height: 70vh; 
+     min-width: none;
+    
+}
+.card{
+ position: relative;
+ /* line-height: 60px; */
+
+
+ background: #8f8f8f;
+color: black;
+ width: 300px;
+ text-decoration: none;   
+ border-radius: 10px;
+  background-image:conic-gradient(transparent, #8f8f8f); 
+ margin: 0 auto;
+ text-align: center;
+ padding: 2em;
+ 
+}
+.card:hover{
+    background-color:  #8f8f8f;
+    color: black;
+    box-shadow: 0 0 5px  #8f8f8f,
+                0 0 25px   #8f8f8f,
+                0 0 50px   #8f8f8f,
+                0 0 75px   #8f8f8f;
+    -webkit-box-relect : below 1px linear-gradient(transparent,#000500);
+}
+
+.social{
+    ul {
+        display: flex;
+        padding: 0;
+      }
+      
+      ul li {
+        list-style: none;
+        margin: 10px;
+      }
+      
+      ul li a {
+        display: inline-block;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        background-color: #f1f1f1;
+        text-align: center;
+       line-height: 60px;   
+        
+        color: #333;
+        font-size: 24px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        transition: transform 0.3s, box-shadow 0.3s;
+        background: linear-gradient(45deg, #8f8f8f, #807f7f);
+      }
+      
+      ul li a:hover {
+        background-color: #c0c0c0;
+    }
+    
+    i:hover{
+        color:rgb(255, 255, 255);
+    }
+      
+       .fa {
+        font-family: FontAwesome;
+        
+      }
+}
+.return{
+    display: inline-block;
+    text-align: center;
+    min-height: 7px;  
+       background-color: aliceblue;
+       
+    margin: 10px;
+    min-width: 5vh;
+}
+
+.sitefooter{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content footer{
+    max-width: 1200px;
+    margin: auto;
+}
+.sitefooter a {
+    color: #ccc;
+    text-decoration: none;
+   margin: 0 10px;
+   transition: color 0.3s;
+}
+.sitefooter a:hover{
+    color: #fff;
+}
+.siva{
+    position: relative;
+    padding: 25px 30px;
+    border-radius: 75px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #fcfcfc;
+    font-size: 2rem;
+    font-weight: bold;
+    transform: .5s;
+    overflow: hidden;
+    margin-right: 70px;
+}
+.sites{
+    position: relative;
+    padding: 25px 30px;
+    border-radius: 75px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #03e903;
+    font-size: 2rem;
+    font-weight: bold;
+    transform: .5s;
+    overflow: hidden;
+    margin-right: 70px;
+}
+.sites:hover{
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0 0 5px rgb(125, 128, 128),
+                0 0 15px rgb(95, 100, 100),
+                0 0 25px rgb(146, 151, 151),
+                0 0 35px rgb(165, 170, 170);
+    -webkit-box-relect : below 1px linear-gradient(transparent,#000500);
+}
+
+@media (max-width: 767px) {
+  .contact {
+    font-size: 28px;
+    padding: 10px 0;
+  }
+  .content {
+    font-size: 16px;
+    padding: 5px 0;
+  }
+  form {
+    width: 100%;
+    padding: 10px 0;
+  }
+  label, input, button {
+    width: 90%;
+    font-size: 16px;
+    margin: 8px auto;
+    display: block;
+  }
+  section {
+    flex-direction: column;
+    min-height: auto;
+    padding: 10px 0;
+  }
+  .card {
+    width: 95%;
+    margin: 10px auto;
+    font-size: 16px;
+    padding: 1em 0.5em;
+  }
+  .social ul {
+    flex-direction: column;
+    align-items: center;
+  }
+  .social ul li {
+    margin: 8px 0;
+  }
+  .sitefooter {
+    padding: 15px 5px;
+    font-size: 16px;
+  }
+  .content.footer {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 100%;
+    margin: 0;
+  }
+  .sitefooter a {
+    display: block;
+    margin: 8px 0;
+    font-size: 18px;
+  }
+  .siva {
+    margin: 20px 0 0 0;
+    padding: 10px 0;
+    border-radius: 0;
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  .sites {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+    font-size: 1.1rem;
+  }
+  .sites a {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 1.1rem;
+  }
+  .sites span {
+    display: none;
+  }
+}
+
+

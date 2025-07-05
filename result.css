@@ -1,0 +1,287 @@
+body{
+    background-image: url(gradient-black-background-with-cubes_23-2149197764.jpg);
+}
+#text{
+    position: absolute;
+    left: 100px;
+   
+}
+#image{
+    border-style: solid;
+    border-color: rgb(43, 43, 43);
+}
+.scroll-container {
+    
+    left: 200px;
+    overflow: auto;
+    padding: 10px;
+  }
+  
+  .scroll-container img {
+    padding: 10px;
+  }
+  *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'poppins' ,sans-serif;
+    text-decoration: none;
+}
+.portal1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 20vh;
+    background-color: rgb(117, 117, 117);
+    
+}
+.portal1:hover{
+    background-color:#474747
+}
+
+.portal1 a{
+    position: relative;
+    padding: 25px 30px;
+    border-radius: 0px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #000000;
+    
+    font-size: 2rem;
+    font-weight: bold;
+    transform: .5s;
+    overflow: hidden;
+    margin-right: 70px;
+
+}
+.portal1 a:hover{
+    background-color: rgb(255, 255, 255);
+    border-style: solid ;
+    border-color: #000500;
+
+    color: black;
+    box-shadow: 0 0 5px rgb(0, 0, 0),
+                0 0 15px rgb(0, 0, 0),
+                0 0 25px rgb(255, 255, 255),
+                0 0 35px rgb(0, 0, 0);
+    -webkit-box-relect : below 1px linear-gradient(transparent,#000500);
+}
+.portal2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 20vh;
+    background-color: rgb(94, 94, 94);
+}
+.portal2:hover{
+    background-color: #474747;
+}
+.portal2 a{
+    position: relative;
+    padding: 25px 30px;
+    border-radius: 0px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #000000;
+    
+    font-size: 2rem;
+    font-weight: bold;
+    transform: .5s;
+    overflow: hidden;
+    margin-right: 70px;
+
+}
+.portal2 a:hover{
+    background-color: rgb(255, 255, 255);
+    border-style: solid ;
+    border-color: #000500;
+
+    color: black;
+    box-shadow: 0 0 5px rgb(0, 0, 0),
+                0 0 15px rgb(0, 0, 0),
+                0 0 25px rgb(254, 255, 255),
+                0 0 35px rgb(0, 0, 0);
+    -webkit-box-relect : below 1px linear-gradient(transparent,#000500);
+}
+
+.portal3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 20vh;
+    background-color: rgb(107, 107, 107);
+}
+.portal3:hover{
+    background-color: #474747;
+}
+.portal3 a{
+    position: relative;
+    padding: 25px 30px;
+    border-radius: 0px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #000000;
+    
+    font-size: 2rem;
+    font-weight: bold;
+    transform: .5s;
+    overflow: hidden;
+    margin-right: 70px;
+
+}
+.portal3 a:hover{
+    background-color: rgb(255, 255, 255);
+    border-style: solid ;
+    border-color: #000500;
+
+    color: black;
+    box-shadow: 0 0 5px rgb(0, 0, 0),
+                0 0 15px rgb(0, 0, 0),
+                0 0 25px rgb(254, 255, 255),
+                0 0 35px rgb(0, 0, 0);
+    -webkit-box-relect : below 1px linear-gradient(transparent,#000500);
+}
+.portalnumber{
+    position: absolute;
+    left: 100px;
+    color: aliceblue;
+    text-shadow: 0px 0px 20px aliceblue,
+    
+}
+/* }
+a:first-child{
+    filter: hue-rotate(300deg);
+} */
+.sitefooter{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content footer{
+    max-width: 1200px;
+    margin: auto;
+}
+.sitefooter a {
+    color: #ccc;
+    text-decoration: none;
+   margin: 0 10px;
+   transition: color 0.3s;
+}
+.sitefooter a:hover{
+    color: #fff;
+}
+.siva{
+    position: relative;
+    padding: 25px 30px;
+    border-radius: 75px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #ffffff;
+    font-size: 2rem;
+    font-weight: bold;
+    transform: .5s;
+    overflow: hidden;
+    margin-right: 70px;
+}
+.sites{
+    position: relative;
+    padding: 25px 30px;
+    border-radius: 75px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #03e903;
+    font-size: 2rem;
+    font-weight: bold;
+    transform: .5s;
+    overflow: hidden;
+    margin-right: 70px;
+}
+.sites:hover{
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0 0 5px rgb(125, 128, 128),
+                0 0 15px rgb(95, 100, 100),
+                0 0 25px rgb(146, 151, 151),
+                0 0 35px rgb(165, 170, 170);
+    -webkit-box-relect : below 1px linear-gradient(transparent,#000500);
+}
+
+@media (max-width: 767px) {
+  #text, .portalnumber {
+    position: static;
+    left: 0;
+    font-size: 20px;
+    text-align: center;
+    margin: 10px 0;
+  }
+  .scroll-container {
+    padding: 0;
+    white-space: normal;
+    overflow-x: auto;
+    text-align: center;
+  }
+  .scroll-container img, #image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  .portal1, .portal2, .portal3 {
+    flex-direction: column;
+    min-height: auto;
+    padding: 10px 0;
+    margin: 10px 0;
+  }
+  .portal1 a, .portal2 a, .portal3 a {
+    font-size: 1.1rem;
+    margin-right: 0;
+    padding: 10px 0;
+    width: 100%;
+    text-align: center;
+  }
+  .sitefooter {
+    padding: 15px 5px;
+    font-size: 16px;
+  }
+  .content.footer {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 100%;
+    margin: 0;
+  }
+  .sitefooter a {
+    display: block;
+    margin: 8px 0;
+    font-size: 18px;
+  }
+  .siva {
+    margin: 20px 0 0 0;
+    padding: 10px 0;
+    border-radius: 0;
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  .sites {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+    font-size: 1.1rem;
+  }
+  .sites a {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 1.1rem;
+  }
+  .sites span {
+    display: none;
+  }
+  img, .scroll-container img, #image {
+    max-width: 100%;
+    height: auto !important;
+  }
+}
+
